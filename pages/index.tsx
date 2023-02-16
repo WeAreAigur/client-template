@@ -7,6 +7,7 @@ export default function Home() {
 
 	const fetchJoke = async (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
+		setJoke('');
 		jokeGptPipeline.vercel.invokeStream({ subject }, (str) => {
 			setJoke((joke) => joke + str);
 		});
