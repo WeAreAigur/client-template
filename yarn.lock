@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aigur/client@^0.33.0":
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-0.33.0.tgz#220f257d8e969246aeb54ad05315206ff17adbbf"
-  integrity sha512-heT0uCJ7MHOdyt5zkDPNN2Kh14CwvmtHsN2npAAyGfNPqQysP4e76CWWXDKuxVYUdjckH5mxSkgoOQLABbvkbw==
+"@aigur/client@^0.35.0":
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-0.35.0.tgz#cb5fdae889c58b49af84af3ed07802dedd486f87"
+  integrity sha512-xfU9xK/aXggQSfkkaZwHvaPjpH8USD0UxIuhh9W+QtVjuR2f8d85d70BG32Y0FsNfPZXT9Ctyq6lFzk2nUlTww==
   dependencies:
     eventsource-parser "^0.1.0"
     form-data "^4.0.0"
