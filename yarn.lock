@@ -3,10 +3,11 @@
 
 
 "@aigur/client@^1.5.1":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-1.6.0.tgz#761cd5c56eaa2d6d9fcfd9aad875f38cf45881e7"
-  integrity sha512-9kZGx1o4pQdMaU2imWSxyEOPBwKITm7xL8Y6sNNwgWF/RZy92bTJ5gMtkhJ6x76JBeEmuUP1chIZInSH+nZiFQ==
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-1.9.3.tgz#f53a9c0674815245e23b04c733064145682872db"
+  integrity sha512-ymd5OTA9VBOnzwyNTHsNzrG0tufTKbOZAcbHv97GXvR6qShTdWeRmV2iBxx0twPgVQrmVcYWbIz1GBWJZrNY3A==
   dependencies:
+    "@huggingface/inference" "^1.5.2"
     eventsource-parser "^0.1.0"
     form-data "^4.0.0"
     zod "^3.20.2"
@@ -32,6 +33,11 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
+
+"@huggingface/inference@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@huggingface/inference/-/inference-1.5.2.tgz#50c2284a7fe985f87b2cf46e37056349eee9177c"
+  integrity sha512-n1w/HcZfJv/Xpvpat0U/6RMw3ZaFKMF3XoYuvlqWUrcYItvjdZ3krgGEIwLDkrEFnpl0c1yenMqfYDwQf3gYEw==
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
@@ -2100,6 +2106,6 @@ yocto-queue@^0.1.0:
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 zod@^3.20.2:
-  version "3.20.6"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.6.tgz#2f2f08ff81291d47d99e86140fedb4e0db08361a"
-  integrity sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==
+  version "3.21.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.4.tgz#10882231d992519f0a10b5dd58a38c9dabbb64db"
+  integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
